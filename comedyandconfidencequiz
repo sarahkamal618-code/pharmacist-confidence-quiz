@@ -3,40 +3,32 @@
 <head>
   <meta charset="utf-8" />
 
-  <!-- Browser tab title -->
-  <title>Do You Need a STAT Dose of Confidence? (60-Second Quiz)</title>
+  <title>Do You Need a STAT Dose of Confidence? A 60-Second Quiz</title>
 
-  <!-- Open Graph metadata for LinkedIn -->
-  <meta property="og:title" content="Do You Need a STAT Dose of Confidence? (60-Second Quiz)" />
+  <!-- Open Graph for LinkedIn / Facebook -->
+  <meta property="og:title" content="Do You Need a STAT Dose of Confidence? A 60-Second Quiz" />
   <meta property="og:description" content="A fun, GIF-powered pharmacist comedy quiz that reveals your 'PharmD reaction style' in 60 seconds. Zero seriousness, maximum accuracy 😂" />
-  
-  <!-- OG IMAGE — using your square quiz image -->
-  <meta property="og:image" content="/mnt/data/A_2D_digital_illustration_promotes_a_60-second_qui.png" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="1200" />
-
-  <!-- URL of your redirect page -->
-  <meta property="og:url" content="YOUR_REDIRECT_URL_HERE" />
+  <meta property="og:image" content="https://sarahkamal618-code.github.io/pharmacist-confidence-quiz/quiz-cover.png" />
+  <meta property="og:url" content="https://sarahkamal618-code.github.io/pharmacist-confidence-quiz/" />
   <meta property="og:type" content="website" />
 
-  <!-- Twitter card compatibility -->
+  <!-- Twitter card (also helps some platforms) -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Do You Need a STAT Dose of Confidence? (60-Second Quiz)" />
-  <meta name="twitter:description" content="A fun, GIF-powered pharmacist comedy quiz that reveals your 'PharmD reaction style' in 60 seconds 😂" />
-  <meta name="twitter:image" content="/mnt/data/A_2D_digital_illustration_promotes_a_60-second_qui.png" />
-
+  <meta name="twitter:title" content="Do You Need a STAT Dose of Confidence? A 60-Second Quiz" />
+  <meta name="twitter:description" content="A fun, GIF-powered pharmacist comedy quiz that reveals your 'PharmD reaction style' in 60 seconds. 😂" />
+  <meta name="twitter:image" content="https://sarahkamal618-code.github.io/pharmacist-confidence-quiz/quiz-cover.png" />
 </head>
 
 <body>
-  <!-- INSTANT REDIRECT to your Lovable quiz -->
+  <!-- Instant redirect to your Lovable quiz -->
   <script>
     window.location.href = "https://pharmacistcomedyquiz.lovable.app";
   </script>
 
-  <!-- Fallback link -->
+  <!-- Fallback if JS is disabled -->
   <p>
-    Redirecting to the quiz…  
-    <a href="https://pharmacistcomedyquiz.lovable.app">Click here if you’re not redirected.</a>
+    Redirecting to the quiz…
+    <a href="https://pharmacistcomedyquiz.lovable.app">Click here if you're not redirected.</a>
   </p>
 </body>
 </html>
